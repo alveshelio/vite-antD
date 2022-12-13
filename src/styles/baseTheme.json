@@ -1,0 +1,158 @@
+{
+  "_comment": "This file regroupe all hard coded variables in HEX/rgba or px. DO NOT modified if not necessary !",
+  "_comment_overridableAntDesignVariable": "Designed with _antD_ suffix and used in craco.config.js",
+  "fontName": "Work Sans",
+  "colorPalettes": {
+    "daybreakBlue": {
+      "blue-1": "#E9E5FF",
+      "blue-2": "#C2B8FF",
+      "blue-3": "#A08FFF",
+      "blue-4": "#5F42FF",
+      "blue-5": "#401FFF",
+      "blue-6": "#2300EB",
+      "blue-7": "#1C00B8",
+      "blue-8": "#15008A",
+      "blue-9": "#0F0066",
+      "blue-10": "#0A0042"
+    },
+    "green": {
+      "_comment_green": " Todo: New green colors will arrive with new features so this will could possibly be updated",
+      "green-2": "#EAF8E4",
+      "green-6": "#52C41A"
+    },
+    "marin": {
+      "marin-1": "#EFEDF7",
+      "marin-2": "#D2CEE9",
+      "marin-3": "#B8B2DC",
+      "marin-4": "#9188C9",
+      "marin-5": "#7164B9",
+      "marin-6": "#5649A2",
+      "marin-7": "#44397E",
+      "marin-8": "#332B5F",
+      "marin-9": "#262046",
+      "marin-10": "#18152E"
+    },
+    "gray": {
+      "gray-1": "#FFFFFF",
+      "gray-2": "#FAFAFA",
+      "gray-3": "#F5F5F5",
+      "gray-4": "#F0F0F0",
+      "gray-5": "#D9D9D9",
+      "gray-6": "#BFBFBF",
+      "gray-7": "#8C8C8C",
+      "gray-8": "#595959",
+      "gray-9": "#434343",
+      "_comment_gray": "Gray over gray-10, never used by XO Designers",
+      "gray-10": "#262626",
+      "gray-11": "#1F1F1F",
+      "gray-12": "#141414",
+      "gray-13": "#000000"
+    },
+    "red": {
+      "red-1": "#FFF1F0",
+      "red-5": "#FF4D4F"
+    },
+    "antPrimary": {
+      "ant-primary-1": "#F5F0FF"
+    }
+  },
+  "header": {
+    "_antD_background": "@marin-8",
+    "_antD_textColor": "@gray-1",
+    "appiaIconColor": "#FFFFFF"
+  },
+  "sideBar": {
+    "_antD_background": "@gray-1",
+    "_antD_menuItemColor": "@marin-8",
+    "_antD_triggerColor": "@marin-8"
+  },
+  "main": {
+    "_antD_background": "@gray-3",
+    "_antD_heading": "@marin-8",
+    "_antD_placeholder": "fade(@marin-8, 25%)",
+    "_antD_modalMaskBackground": "fade(@marin-8, 20%)",
+    "_antD_textColor": "fade(@marin-8, 85%)",
+    "_antD_selectedTextBackground": "@marin-8",
+    "splashScreenBackground": "rgb(240, 243, 247)",
+    "darkerTextColor": "rgb(51, 43, 95)",
+    "textColor": "rgba(51, 43, 95, 0.85)",
+    "helpTextColor": "rgba(51, 43, 95, 0.45)",
+    "placeholderTextColor": "rgba(51, 43, 95, 0.25)",
+    "disabledTextColor": "rgba(51, 43, 95, 0.25)",
+    "primaryColorHover": "#866BFF",
+    "table": {
+      "_antD_headerBackground": "@gray-3",
+      "_antD_headerColor": "fade(@marin-8, 85%)",
+      "_antD_border": "@gray-5",
+      "_antD_borderRadius": "0px"
+    },
+    "collapse": {
+      "_antD_headerBackground": "@gray-1",
+      "_antD_background": "@gray-1"
+    },
+    "discrete": "rgba(0, 0, 0, 0.45)",
+    "commandPanel": {
+      "form": {
+        "height": 374
+      },
+      "footer": {
+        "height": 48
+      }
+    }
+  },
+  "footer": {
+    "_antD_background": "@gray-1"
+  },
+  "tooltip": {
+    "_antD_tooltipBackground": "fade(@marin-8, 85%)"
+  },
+  "shadow": {
+    "boxShadowBase": "rgba(0, 0, 0, 0.15)",
+    "widgetBoxShadow": "rgba(51, 43, 95, 0.15)"
+  },
+  "size": {
+    "font": {
+      "xxsmall": "10px",
+      "xsmall": "12px",
+      "small": "14px",
+      "medium": "16px",
+      "large": "18px",
+      "xlarge": "20px",
+      "xxlarge": "22px",
+      "xxxlarge": "24px"
+    },
+    "space": {
+      "xxsmall": "4px",
+      "xsmall": "8px",
+      "small": "12px",
+      "medium": "16px",
+      "large": "24px",
+      "xlarge": "32px",
+      "xxlarge": "48px"
+    },
+    "gutterRow": {
+      "medium": 8
+    },
+    "weight": {
+      "regular": "400",
+      "medium": "500",
+      "semiBold": "600",
+      "bold": "700"
+    },
+    "radius": {
+      "sm": "2px",
+      "md": "4px",
+      "lg": "8px",
+      "xxlg": "48px"
+    }
+  },
+  "breakpoints": {
+    "xs": "480px",
+    "sm": "576px",
+    "md": "768px",
+    "lg": "992px",
+    "xl": "1280px",
+    "xxl": "1440px",
+    "xxxl": "1920px"
+  }
+}
