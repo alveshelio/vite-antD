@@ -1,34 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
-import { readdirSync } from 'fs'
-import { resolve, join } from 'path'
 
 import baseTheme from './src/styles/baseTheme.json';
 
-const absolutePathAliases: { [key: string]: string } = {};
-// Root resources folder
-const srcPath = resolve('./src/');
-// Ajust the regex here to include .vue, .js, .jsx, etc.. files from the resources/ folder
-const srcRootContent = readdirSync(srcPath, { withFileTypes: true }).map((dirent) => dirent.name.replace(/(\.ts){1}(x?)/, ''));
-
-srcRootContent.forEach((directory) => {
-  absolutePathAliases[directory] = join(srcPath, directory);
-});
-
-console.warn('absolutePathAliases', JSON.stringify(absolutePathAliases, null, 2))
-
-// https://vitejs.dev/config/
 export default defineConfig({
-  resolve: {
-    alias: {
-      // ...absolutePathAliases
-    }
-  },
-  build: {
-    rollupOptions: {
-      input: '/main.tsx'
-    }
-  },
   css: {
     preprocessorOptions: {
       less: {
